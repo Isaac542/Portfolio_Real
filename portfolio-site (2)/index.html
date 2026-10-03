@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- EDIT: your name -->
+  <title>Your Name | Aerospace Engineering Portfolio</title>
+  <meta name="description" content="Engineering projects by Your Name: design, build, and flight test of UAS and other hardware.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-nav">
+    <div class="inner">
+      <a class="brand" href="./">Your Name</a>
+      <ul>
+        <li><a href="./" aria-current="page">Projects</a></li>
+        <!-- EDIT: drop resume.pdf into /assets/ -->
+        <li><a href="assets/resume.pdf">Resume</a></li>
+        <li><a href="mailto:you@example.com">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main" class="home">
+    <section class="intro">
+      <!-- EDIT: your name and short bio -->
+      <h1>Your Name</h1>
+      <p class="role">Aerospace engineer and design engineer</p>
+      <p>I have a bachelor's degree in aerospace engineering and work as a design engineer. Outside of work I design, build, and fly my own aircraft. This site documents those projects, from requirements through flight testing.</p>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/your-profile">LinkedIn</a>
+        <a href="https://github.com/your-username">GitHub</a>
+        <a href="assets/resume.pdf">Resume (PDF)</a>
+        <a href="mailto:you@example.com">you@example.com</a>
+      </div>
+    </section>
+
+    <h2 class="index-title">Projects</h2>
+    <ol class="project-index">
+
+      <li>
+        <a class="project-row" href="projects/tiltrotor-vtol/">
+          <span class="sheet-no">P-001</span>
+          <figure class="media" data-type="image"
+                  data-src="projects/tiltrotor-vtol/media/thumbnail.jpg"
+                  data-alt="Thumbnail of the tiltrotor VTOL"
+                  data-ratio="4/3"></figure>
+          <div>
+            <h3>3D printed tiltrotor VTOL</h3>
+            <p>A tricopter tiltrotor flying wing designed from scratch around a GoPro payload, built for repairability, and flight tested through three structural revisions.</p>
+          </div>
+          <span class="row-status">Hover tuning</span>
+        </a>
+      </li>
+
+      <!--
+        TO ADD A PROJECT: copy the <li> above, change the link, sheet number,
+        thumbnail path, title, summary and status. Then duplicate the
+        /projects/project-template/ folder and rename it.
+      -->
+
+      <li>
+        <div class="project-row is-empty">
+          <span class="sheet-no">P-002</span>
+          <div></div>
+          <div>
+            <h3>Next project</h3>
+            <p>In progress.</p>
+          </div>
+          <span class="row-status"></span>
+        </div>
+      </li>
+
+    </ol>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <span>© <span data-year></span> Your Name</span>
+      <a href="https://github.com/your-username">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
